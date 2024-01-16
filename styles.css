@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+body {
+  font-size: 62.5%;
+  text-align: justify;
+}
+.book {
+  margin-bottom: 7.5rem;
+  margin-right: 2.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.intro {
+  text-align: right;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: O.2rem;
+}
+.chapter-n {
+  font-weight: 500;
+  border-bottom: 0.2rem solid;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+.book-title {
+  font-weight: 700;
+}
+h1 {
+  text-transform: uppercase;
+  margin: 2.5rem 0 2.5rem 0;
+}
+
+/* ------- Helper class ------*/
+.center {
+  max-width: 50rem;
+  margin: auto;
+}
+.container {
+  width: 40rem;
+}
+p span {
+  margin-left: 1.5rem;
+}
+/* .marge-left { remplacer - >ok 
+  margin-left: 15px;
+} 
+.text-justify { remplacer -> ok
+  text-align: justify;
+}
+.flex-right {
+  margin: 25px 0 25px 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+*/
+div > div {
+  margin: 2.5rem 0 2.5rem 0;
+  text-align: right;
+}
+.inline {
+  display: inline;
+}
+.marge-top {
+  margin-top: 2.5rem;
+}
+.text-right {
+  text-align: right;
+  line-height: 2rem;
+}
